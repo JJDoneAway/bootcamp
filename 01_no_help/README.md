@@ -11,7 +11,7 @@ If you what to do this exercise
 * wrong or no use of classes will make your code hard to read and complex
 * no test framework will force you to implement the boiler plate again and again to test your code snippets 
 * no code management will hinder you to build, test, run and share your code 
-  * it is impossible to import the project if you have a different version of eclipse or a different IDE like IntelliJ
+  * project relevant settings of your IDE can not be restored
   * the test must be started manually and can be forgotten
   * you must compile the code manually to get your classes
   * you must start the program in a very inconvenient way
@@ -19,7 +19,7 @@ If you what to do this exercise
 
 # If you would like to inspect the example
 * clone it to any directory
-* import it in your eclipse workspace 
+* create a new java project with the name Tic_Tac_Toe
 * run the tests in `com.mt_ag.tic_tac_toe.Tests`
 * to run the game:
   * safe any change in eclipse (will compile the code) 
