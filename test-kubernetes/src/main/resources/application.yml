@@ -1,0 +1,13 @@
+logging:
+   level:
+      root: "INFO"
+      com.agmt: "DEBUG"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+        
+

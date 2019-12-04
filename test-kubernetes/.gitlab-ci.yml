@@ -1,0 +1,21 @@
+include:
+- project: 'artikelsuche/deployment/deployment-project'
+  ref: master
+  file: '/ci-templates/java-template.yml'
+
+# =========================================================
+# Konfiguration hier
+
+variables:
+    # So heißt der µ Service nachher in k8s
+    # Erlaubt sind nur Buchstaben, beginnt mit Kleinbuchstaben, keine Sonderzeichen
+    # Dient ebenfalls als Default-Namen für die angelegte Datenbank
+    PROJECT_NAME:  #
+    
+    # Name des Images in der Docker Registry ohne Tags
+    # Erlaubt sind nur Kleinbuchstaben und Bindestriche
+    DOCKER_IMAGE_NAME:  #
+    
+    # Name des µ Services in der URL
+    # Die finale URL setzt sich so zusammen: https://k8s.mt-ag.com/{produkt name}/{APPLICATION_PATH}
+    APPLICATION_PATH:  #

@@ -30,7 +30,10 @@ If you learn to implement test driven you'll see that your code is getting more 
 
 Further more you can use the code coverage tool from eclipse to give you hints about untested code. 
 
-
+# the pain you should feel
+* it doesn't help you to structure your code loosely coupled
+* You are not able to split the work between different developers 
+* You are not able to implement different UI's
 
 # just a hint
 [https://dzone.com/articles/using-github-as-maven-repository]
