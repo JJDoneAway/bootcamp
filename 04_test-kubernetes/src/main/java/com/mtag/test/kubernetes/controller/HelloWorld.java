@@ -1,4 +1,4 @@
-package com.mtag.jumpstart.java.jumpstart.controller;
+package com.mtag.test.kubernetes.controller;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mtag.jumpstart.java.jumpstart.JumpstartApplication;
+import com.mtag.test.kubernetes.JumpstartApplication;
 
 /**
  * This REST will greet persons

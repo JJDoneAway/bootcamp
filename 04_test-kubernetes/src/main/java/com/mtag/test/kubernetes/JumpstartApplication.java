@@ -1,4 +1,4 @@
-package com.mtag.jumpstart.java.jumpstart;
+package com.mtag.test.kubernetes;
 
 import java.util.UUID;
 
