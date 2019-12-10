@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment 
+metadata: 
+  name: inspector 
+spec: 
+  replicas: 1 
+  selector: 
+    matchLabels: 
+      app: inspector-label 
+  template: 
+    metadata: 
+      labels: 
+        app: inspector-label 
+    spec: 
+      containers: 
+      - name: inspector 
+        image: phusion/baseimage:latest 
+
