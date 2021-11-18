@@ -10,7 +10,7 @@ public class Play {
 
 	public static void main(String[] args) {
 		String a = "Johannes";
-		String b = "Annabell";
+		String b = "Frank";
 		if (args.length == 2) {
 			a = args[0];
 			b = args[1];
